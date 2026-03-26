@@ -1,43 +1,54 @@
 const stepsToPlay = [
 	{
 		id: 1,
-		title: 'Follow the Project',
+		title: '👀 Follow the Project',
 		desc: 'Hit us up on Reddit and Instagram to stay in the loop on updates and new releases.',
 		btn: [
 			{
 				link: 'https://www.instagram.com/blackflag_boardgame?igsh=cWpzaWp0dmx0NXV6',
-				title: 'Instagram'
+				title: '📸 Instagram'
 			}
-			// { link: '/', title: 'Reddit' }
+			// { link: '/', title: '👾 Reddit' }
 		]
 	},
 	{
 		id: 2,
-		title: 'Download the Latest Version',
+		title: '💾 Download the Latest Version',
 		desc: 'Grab the freshest game files, ready to print and play.',
 		btn: [
 			{
 				link: 'https://github.com/oleg-darkdev/black-flag_app/tree/main/static/print-and-play',
-				title: 'Download Files'
+				title: '⬇️ Download Files'
 			}
 		]
 	},
 	{
 		id: 3,
-		title: 'Print & Assemble',
+		title: '🖨️ Print & Assemble',
 		desc: 'Print out the components and set up your board and cards.',
 		btn: []
 	},
 	{
 		id: 4,
-		title: 'Share Your Experience',
+		title: '📢 Share Your Experience',
 		desc: 'Drop your thoughts and pics of Black Flag on Reddit, Instagram, and show off your game night.',
 		btn: [
 			{
 				link: 'https://www.instagram.com/blackflag_boardgame?igsh=cWpzaWp0dmx0NXV6',
-				title: 'Instagram'
+				title: '📸 Instagram'
 			}
-			// { link: '/', title: 'Reddit' }
+			// { link: '/', title: '👾 Reddit' }
+		]
+	},
+	{
+		id: 5,
+		title: '💖 Support or Get a DIY Copy',
+		desc: 'Donate to the project or buy a physical D.I.Y. version of the game to support development and enjoy Black Flag in full.',
+		btn: [
+			{
+				link: 'https://buymeacoffee.com/oleg_darkdev',
+				title: 'Buy me a coffee'
+			}
 		]
 	}
 ];

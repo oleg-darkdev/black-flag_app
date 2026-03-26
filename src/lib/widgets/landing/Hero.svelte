@@ -57,8 +57,8 @@
 		<div class="master-about-home">
 			<div class="left-about-home">
 				<div class="inside-left-home-about">
-				<!-- <br/> <span class=''>BlackFlag</span> <br/> -->
-					<h2 class="no-margins">About  boardgame</h2>
+					<!-- <br/> <span class=''>BlackFlag</span> <br/> -->
+					<h2 class="no-margins">About boardgame</h2>
 					<div class="socials-wrap-about-home">
 						<a
 							href="https://www.instagram.com/blackflag_boardgame?igsh=cWpzaWp0dmx0NXV6"
@@ -88,15 +88,22 @@
 			<div class="right-home-about">
 				<div class="big-text">
 					<p>
-						A cooperative educational chaos for 2–6 players (ages 12+) that immerses players in
-						the world of anarchist ideas, movements, and people.
+						A cooperative educational chaos for 2–6 players (ages 12+) that immerses players in the
+						world of anarchist ideas, movements, and people.
 					</p>
 					<p>
 						Each game is a mix of learning, discussion, and unexpected discoveries. From
 						anarcho-feminism to anarcho-primitivism—here, everyone will find their own path, their
 						own story, and their own region: from Europe to Oceania 🌍
 					</p>
-					<p>Open source—because knowledge should be free.</p>
+					<p>
+						Open source—because knowledge should be free
+						<a
+							href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+							target="_blank"
+							class="white-link">CC BY-NC-SA 4.0</a
+						>
+					</p>
 					<p>Made in utopia.</p>
 				</div>
 			</div>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import {  } from '$shared';
+	import { BuyMeaCoffeeBtn } from '$sharedUi';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 
@@ -11,7 +11,7 @@
 		<a href="/" class="">
 			<img src="images/footer_logo.svg" loading="lazy" alt="" class="brand-footer" />
 		</a>
-		<div class="grid-contact-footer grid mt-6">
+		<div class="grid-contact-footer mt-6 grid">
 			<a href="mailto:darkdev_brand@riseup.net" class="link-contact-footer w-inline-block">
 				<div>darkdev_brand@riseup</div>
 			</a>
@@ -46,15 +46,18 @@
 				<a href="https://github.com/oleg-darkdev/black-flag_app" target="_blank" class="link-footer"
 					>Github</a
 				>
+				<div class="mt-8">
+					<BuyMeaCoffeeBtn />
+				</div>
 			</div>
 			<div class="column-footer-link">
 				<div class="heading-footer-link">Expansions</div>
-				{#each extensions as { title, link }}
-					<a href={link} target="_blank" class="link-footer">{title}</a>
+				{#each extensions as { title, link, linkText }}
+					<a href={link} target="_blank" class="link-footer">{title}: {linkText}</a>
 				{/each}
 			</div>
 			<div class="column-footer-link">
-				<div class="heading-footer-link">Other <br /> boardgames</div>
+				<div class="heading-footer-link">Other boardgames</div>
 				<a href="https://food-not-bombs.vercel.app/" target="_blank" class="link-footer"
 					>Soup4all: <br />
 					Food not Bombs</a
@@ -63,11 +66,17 @@
 		</div>
 		<div class="wrap-legal-footer">
 			<div class="text-legal-footer">
-				Developed by <a href="https://oleg-darkdev.vercel.app/" target="_blank" class="white-link">oleg_darkDev</a>. Powered by
-				community.
+				Developed by <a href="https://oleg-darkdev.vercel.app/" target="_blank" class="white-link"
+					>oleg_darkDev</a
+				>. Powered by community.
+				
 			</div>
 			<div class="text-legal-footer">
-				<a href="/" target="_blank" class="white-link">Lorem impsum</a>
+				<a
+					href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+					target="_blank"
+					class="white-link">CC BY-NC-SA 4.0</a
+				>
 			</div>
 		</div>
 	</div>

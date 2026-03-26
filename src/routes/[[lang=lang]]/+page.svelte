@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-	<title>| Home</title>
+	<title>Black Flag 🏴 Home</title>
 	<meta name="description" content="" />
 </svelte:head>
 
@@ -184,7 +184,7 @@
 
 <!-- <LibraryData /> -->
 
-<!-- <Author /> -->
+<Author />
 
 <Articles {articles} />
 

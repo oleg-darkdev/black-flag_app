@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import {  } from '$shared';
+	import { BuyMeaCoffeeBtn } from '$sharedUi';
 	// import {  } from '$widgets';
 	// import {  } from '$entities'
 </script>
@@ -10,7 +10,7 @@
 			<h2 class="no-margins">Meet the author, meet the manifesto</h2>
 		</div>
 		<div style="" class="grid-team-thirds grid">
-			<div  class="tile-border team-tile">
+			<div class="tile-border team-tile">
 				<img
 					src="images/author.JPG"
 					loading="lazy"
@@ -18,12 +18,20 @@
 					alt=""
 					class="image-team"
 				/>
-				<div class="bottom-team-tile">
+				<div class="bottom-team-tile mb-6">
 					<h3 class="no-margins">oleg_darkDev</h3>
 					<div>Author / Designer</div>
 				</div>
+
+				<div class="mx-auto">
+					<BuyMeaCoffeeBtn />
+				</div>
 			</div>
 		</div>
+
+		<!-- 				
+		<a href="https://buymeacoffee.com/oleg_darkdev" target="_blank" class="white-link">Donations</a>  
+ -->
 		<div class="flex-right mg-top-64">
 			<div style="" class="limit-706 center-landscape">
 				<div class="big-text">
@@ -41,7 +49,7 @@
 <section class="section testimonials-slider-section"> -->
 	<div class="w-layout-blockcontainer container-medium w-container">
 		<div class="wrap-testimonials-heading">
-			<h2 class="no-margins">Author’s Words <br/> and small Manifesto</h2>
+			<h2 class="no-margins">Author’s Words <br /> and small Manifesto</h2>
 		</div>
 		<div class="master-wrap-slider">
 			<div class="slider-testimonials w-slider">

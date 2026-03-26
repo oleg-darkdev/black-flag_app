@@ -13,6 +13,9 @@
 			{#each stepsToPlay as step}
 				<StepCard {step} />
 			{/each}
+
+								<!-- <BuyMeaCoffeeBtn /> -->
+
 		</div>
 		<!-- <div class="flex-cta-center mg-top-80">
 			<a href="/" class="cta-white w-button">Download Print And Play version</a>
