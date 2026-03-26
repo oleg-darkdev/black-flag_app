@@ -35,9 +35,31 @@
 		<div class="flex-right mg-top-64">
 			<div style="" class="limit-706 center-landscape">
 				<div class="big-text">
-					Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem
-					próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym,
-					pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w.
+					<p class='mb-4'>
+						Product Web Engineer-IT Enthusiast, Gamification Coach, and JavaScript Programmer with
+						across various technologies, experience in board game development and in web application
+						development including startups and open-source projects. Engaged in merging the digital
+						and physical worlds to create engaging and educational experiences. See my open sorce
+						projects are available on <a
+							href="https://github.com/oleg-darkdev"
+							target="_blank"
+							class="header-btn small-header-btn">github profile</a
+						>
+						and
+						<a
+							href="https://oleg-darkdev.vercel.app/"
+							target="_blank"
+							class="header-btn small-header-btn">in my portfolio.</a
+						>
+					</p>
+
+					<p>
+						If you have ideas for collaboration - <a
+							href="https://www.linkedin.com/in/oleg-darkdev"
+							target="_blank"
+							class="header-btn small-header-btn">say me Hello from linkedin.</a
+						> In head with a love for technologies, in heart with a love for people 🖤
+					</p>
 				</div>
 			</div>
 		</div>
@@ -64,15 +86,28 @@
 							/> -->
 							<div class="bottom-testimonial">
 								<div class="text-testimonial">
-									Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia
-									tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle
-									elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach
-									60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem
-									Ipsum, a ostatnio z zawierającym różne wersje Lorem
+									<p>
+										Some leave behind revolutionary ideas, some — books 📚 I leave educational board
+										games 🎲 — for the independent universities of the future.
+									</p>
+									<p>
+										The capitalist system we’ve built doesn’t work the way it should. Capitalists
+										leave behind mountains of waste, destroyed ecosystems, and hundreds of broken
+										human lives.
+									</p>
+									<p>
+										🏴 Black Flag: History of Anarchy is an attempt to bring the history of
+										anarchism into one box: activists, books and texts, philosophies, and acts of
+										direct action.
+									</p>
+									<p>
+										This educational game is not a history lesson. It’s a game about ideas that are
+										still changing the world 🌍
+									</p>
 								</div>
 								<div class="wrap-testimonial-name">
-									<div class="name-testimonial">Został po raz pierwszy</div>
-									<div class="subname-testimonial">oleg_darkDev</div>
+									<div class="name-testimonial">oleg_darkDev</div>
+									<!-- <div class="subname-testimonial"></div> -->
 								</div>
 							</div>
 						</div>
