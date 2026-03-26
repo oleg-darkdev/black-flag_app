@@ -20,8 +20,8 @@
 			</div>
 
 			<div class="flex-cta-center mg-top-80">
-				<button on:click={(showFullList = true)} target="_blank" class="cta-white w-button"
-					>Open the Update Chest</button
+				<button on:click={(showFullList = !showFullList)} target="_blank" class="transition-transform duration-200 cta-white w-button"
+					>{showFullList ? 'Close' : 'Open'} the Update Chest</button
 				>
 			</div>
 		</div>

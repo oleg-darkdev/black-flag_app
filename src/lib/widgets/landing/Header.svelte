@@ -11,7 +11,7 @@
 </script>
 
 <div role="banner" class="navbar z-40">
-	<div class="flex w-full justify-end {showNav ? 'bg-black' : ''} ">
+	<div class="hide-lg flex w-full justify-end {showNav ? 'bg-black' : ''} ">
 		<div class="w-nav-button">
 			<button class="w-icon-nav-menu" on:click={() => (showNav = !showNav)}>
 				btn
@@ -36,21 +36,22 @@
 			role="navigation"
 			class="hide-lg py z-40 flex h-auto h-full w-full flex-col justify-center bg-black px-6"
 		>
-			<div class=" transition-transform duration-200 ease-in-out">
+			<ol class=" transition-transform duration-200 ease-in-out">
 				{#each navigation as { title, link }}
-					<li class="nav-link w-nav-link my-4">
-						<div
-							on:click|preventDefault={() => {
-								scrollToAnchor(link);
-								showNav = false;
-							}}
-							class="item_nav-link"
-						>
+					<li
+						class="my-4"
+						on:click|preventDefault={() => {
+							scrollToAnchor(link);
+							showNav = false;
+						}}
+					>
+						<!-- nav-link w-nav-link  -->
+						<div class="header-btn small-header-btn">
 							{title}
 						</div>
 					</li>
 				{/each}
-			</div>
+			</ol>
 			<!-- w--current -->
 			<!-- <a href={link} class="nav-link w-nav-link my-4">{title}</a> -->
 
@@ -70,12 +71,25 @@
 		</a> -->
 		<div class="w-full">
 			<!-- nav-menu w-nav-menu -->
-			<nav role="navigation" class="hide-sm flex flex-row justify-end">
+			<!-- <nav role="navigation" class="hide-sm flex flex-row justify-end">
 				{#each navigation as { title, link }}
-					<!-- w--current -->
 					<a href={link} class="nav-link w-nav-link mx-2">{title}</a>
 				{/each}
-			</nav>
+			</nav> -->
+			<ol role="navigation" class=" hide-sm flex flex-row justify-end">
+				{#each navigation as { title, link }}
+					<li
+						class="mx-1"
+						on:click|preventDefault={() => {
+							scrollToAnchor(link);
+						}}
+					>
+						<div class="header-btn small-header-btn">
+							{title}
+						</div>
+					</li>
+				{/each}
+			</ol>
 
 			<!-- <a href="#" class="nav-link menu-button w-nav-link">Menu</a> -->
 		</div>
@@ -115,6 +129,32 @@
 </div>
 
 <style lang="postcss">
+	.header-btn {
+		border: 1px solid var(--light);
+		background-color: var(--black);
+		color: var(--light);
+		border-radius: 70px;
+		justify-content: center;
+		align-items: center;
+		height: 64px;
+		padding-left: 32px;
+		padding-right: 32px;
+		transition: background-color 0.2s;
+		display: flex;
+	}
+
+	.header-btn:hover {
+		color: var(--black);
+		background-color: #f5f3ec;
+	}
+
+	.header-btn.small-header-btn {
+		height: 52px;
+		padding-left: 24px;
+		padding-right: 24px;
+		font-size: 20px;
+	}
+
 	.hide-sm {
 	}
 

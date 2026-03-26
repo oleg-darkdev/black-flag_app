@@ -21,7 +21,7 @@
 						<h3 class="no-margins">{title}</h3>
 						<div>{desc}</div>
 					</div>
-					<a href="{link}" target="_blank" class="cta-main w-button">explore: {linkText}</a>
+					<a href="{link}" target="_blank" class="cta-main ">explore: {linkText}</a>
 				</div>
 			{/each}
 		</div>
